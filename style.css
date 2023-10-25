@@ -1,0 +1,58 @@
+
+.gradient-background {
+	background: linear-gradient(-45deg, #12486B, #419197, #78D6C6, #F5FCCD);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+img {
+    border-radius: 10px;
+
+}
+
+.task {
+  
+
+}
+
+img {
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: "cardo";
+    letter-spacing:  5px;
+    font-size: 5rem;
+    margin: 10px;
+    font-weight: 100;
+    color: white;
+}
+
+ p {
+
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
